@@ -1,0 +1,1 @@
+print([i for sub in [[i for i in map(int,input().split(", "))] for _ in range(int(input()))] for i in sub])

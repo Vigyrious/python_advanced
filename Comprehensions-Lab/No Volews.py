@@ -1,0 +1,1 @@
+print(''.join([i for i in list(input()) if i.lower() not in "aouei"]))

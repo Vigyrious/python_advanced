@@ -1,0 +1,5 @@
+# data = input().split("|")
+# print(data)
+# data.reverse()
+# print(data)
+print(' '.join([i for sub in input().split('|')[::-1] for i in sub.split() if i != " "]))
